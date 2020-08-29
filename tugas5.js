@@ -48,10 +48,10 @@ console.log(pesertaObj.Tahun_lahir)
 
 // Jawaban Soal Nomor 5
 
-var buah = [{nama: "strawberry", warna: "merah", adaBijinya: "tidak", harga: 9000},
-           {nama: "jeruk", warna: "oranye", adaBijinya: "ada", harga: 8000},
-           {nama: "Semangka", warna: "Hijau dan Merah", adaBijinya: "ada",harga: 10000},
-           {nama: "Pisang", warna: "Kuning", adaBijinya: "tidak", harga: 5000}]
+var buah = [{nama: "strawberry", warna: "merah", adaBijinya: false, harga: 9000},
+           {nama: "jeruk", warna: "oranye", adaBijinya: true, harga: 8000},
+           {nama: "Semangka", warna: "Hijau dan Merah", adaBijinya: true,harga: 10000},
+           {nama: "Pisang", warna: "Kuning", adaBijinya: false, harga: 5000}]
 
 console.log(buah[0])
 // Jawaban Soal Nomor 6
