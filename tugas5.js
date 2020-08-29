@@ -36,12 +36,10 @@ console.log(perkenalan)
 // Jawaban Soal Nomor 4
 
 var arrayDaftarPeserta = ["Asep", "laki-laki", "baca buku" , 1992]
-var pesertaObj = {
-  nama: "Asep",
-  JenisKelamin: "laki-laki",
-  hobi: "baca buku",
-  Tahun_lahir: 1992
-}
+var pesertaObj = {nama: arrayDaftarPeserta[0], 
+    JenisKelamin: arrayDaftarPeserta[1],
+   hobi: arrayDaftarPeserta[2],
+   Tahun_lahir:arrayDaftarPeserta[3]}
 
 console.log(pesertaObj.nama)
 console.log(pesertaObj.JenisKelamin)
@@ -57,3 +55,16 @@ var buah = [{nama: "strawberry", warna: "merah", adaBijinya: "tidak", harga: 900
 
 console.log(buah[0])
 // Jawaban Soal Nomor 6
+
+var dataFilm = []
+
+function tambahFilm (nama, durasi, genre, tahun) {
+  var obj = {nama: nama, durasi: durasi, genre: genre, tahun: tahun}
+  dataFilm.push(obj)
+}
+
+tambahFilm("Fight Back to School", 100, "Action Comedy", 1991)
+tambahFilm("Fight Back to School 2", 106, "Action Comedy", 1992)
+tambahFilm("Fight Back to School 3", 89, "Action Comedy", 1993)
+
+console.log(dataFilm)
